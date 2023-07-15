@@ -6,18 +6,12 @@
  */
 int main(void)
 {
-	int n = 97;
+	int n;
 
-	while (n <= 122);
+	for (n = 0; n <= 9; n++)
 	{
-		if (n == 101 ||  n == 113)
+		printf("%d", n);
 	}
-			n++;
-			continue;
-	{
-			putchar(n);
-			n++;
-	}
-		putchar('\n');
-		return (0);
+	printf("\n");
+	return (0);
 }
