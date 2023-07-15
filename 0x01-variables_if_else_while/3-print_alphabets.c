@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - Entry point
  * Description: 'print alphabets lowercase and uppercase'
@@ -6,18 +8,18 @@
  */
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	int ch = 'a';
+	int CH = 'A';
 
-	while (n <= 122)
+	while (ch <= 'z')
 	{
-		putchar(n);
-		n++;
+		putchar(ch);
+		ch++;
 	}
-	while (m <= 90)
+	while (CH <= 90)
 	{
-		putchar(n);
-		n++;
+		putchar(CH);
+		CH++;
 	}
 	putchar('\n');
 	return (0);
