@@ -1,23 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Entry point
- * Description: 'print alphabets lowercase and uppercase'
+ * 
  * Return: Always 0
  */
 int main(void)
-
 {
-	char ch = 'a';
+	char i;
 
-	while (ch <= 'z');
+	for (i = 'a' ; i <= 'z' ; i++)
 	{
-		if ((ch != 'e') && (ch != 'q'));
-		{
-			putchar(ch);
-		}
+		if (i != 'q' && i != 'e');
 	}
+			putchar(i);
 		putchar('\n');
 		return (0);
 }
